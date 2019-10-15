@@ -1,6 +1,6 @@
 public class MandelbrotSet {
     public static void main(String[] args){
-Generator g = new Generator(1);
+Generator g = new Generator(0.1);
 g.generateSet();
     }
 }
